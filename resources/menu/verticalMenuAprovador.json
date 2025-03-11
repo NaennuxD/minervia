@@ -1,0 +1,75 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-alt",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Empresas",
+      "icon": "menu-icon tf-icons bx bx-buildings",
+      "slug": "empresas",
+      "url": "/empresas"
+    },
+    {
+      "name": "Mapeamentos",
+      "icon": "menu-icon tf-icons bx bx-sitemap",
+      "slug": "mapeamentos",
+      "url": "/mapeamentos"
+    },
+    {
+      "name": "Governança",
+      "icon": "menu-icon tf-icons bx bx bx-building",
+      "slug": "governanca",
+      "submenu": [
+        {
+          "name": "Gestão de Políticas",
+          "slug": "politicas",
+          "url": "/politicas"
+        },
+        {
+          "name": "Maturidade",
+          "slug": "isos",
+          "url": "/maturidades"
+        }
+      ]
+    },
+    {
+      "name": "Gráficos",
+      "icon": "menu-icon tf-icons bx bx-bar-chart-alt-2",
+      "slug": "graficos",
+      "url": "/graficos"
+    },
+    {
+      "name": "ROPA",
+      "icon": "menu-icon tf-icons bx bx-category",
+      "slug": "ropas",
+      "url": "/ropas"
+    },
+    {
+      "name": "Relatórios",
+      "icon": "menu-icon tf-icons bx bxs-report",
+      "slug": "relatorios",
+      "url": "/relatorios"
+    },
+    {
+      "name": "Parâmetros",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "parametros",
+      "url": "/parametros"
+    },
+    {
+      "name": "Usuários",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "usuarios",
+      "url": "/usuarios"
+    },
+    {
+      "name": "Sair",
+      "icon": "menu-icon tf-icons bx bx-power-off",
+      "slug": "logout",
+      "url": "/logout"
+    }
+  ]
+}

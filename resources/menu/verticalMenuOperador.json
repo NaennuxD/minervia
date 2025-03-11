@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-alt",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Empresas",
+      "icon": "menu-icon tf-icons bx bx-buildings",
+      "slug": "empresas",
+      "url": "/empresas"
+    },
+    {
+      "name": "Mapeamentos",
+      "icon": "menu-icon tf-icons bx bx-sitemap",
+      "slug": "mapeamentos",
+      "url": "/mapeamentos"
+    },
+    {
+      "name": "Sair",
+      "icon": "menu-icon tf-icons bx bx-power-off",
+      "slug": "logout",
+      "url": "/logout"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+.client-logo {
+	width: 180px;
+	height: 53px;
+	object-fit: contain;
+}
+
+.client-logo-small {
+	width: 120px;
+	height: 35px;
+	object-fit: contain;
+}
+
+header.register{
+  height: 18vh;
+}
+
+span b{
+  color: #141416
+}
+
+main.register form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label{
+  margin-bottom: 6px;
+  color: black;
+}
+
+#next-form .btn[type=submit]{
+	margin-top: 40px;
+}
+
+.form-password-toggle .input-group-text.cursor-pointer {
+	height: 40px;
+	border-right-width: 1px;
+	border-top-right-radius: 0.375rem;
+	border-bottom-right-radius: 0.375rem;
+}
+
+.form-password-toggle .input-group-text i {
+	font-size: 1.4rem;
+}
+
+#pet_photo{
+  border-width: 0;
+  border-radius: 50px;
+	width: 94px;
+	height: 94px;
+	object-fit: contain;
+	background-color: white;
+}
+
+.pet_photo_big {
+	border-radius: 90px!important;
+	width: 140px!important;
+	height: 140px!important;
+}
+
+.input-group .form-select.custom-select{
+	border-left-width: 0;
+}
+
+.input-group .form-select.custom-select:focus {
+	box-shadow: none;
+}
+
+textarea.form-control {
+	padding: 10px;
+}
+
+.customer-pet-hr {
+	color: #C4C4C4;
+	opacity: 0.2;
+	margin: 15px 0
+}
+
+.customer {
+	width: 80px;
+	height: 80px;
+	border-width: 2px;
+}
+
+.register{
+	max-width: 500px;
+	margin: auto;
+}
+
+a.btn {
+	width: max-content;
+}
+
+.circle-colored{
+	width: 20px;
+	border: 1px solid black;
+	height: 20px; 
+	border-radius:50px;
+	right: 15px;
+	top: 27%;
+}
+
+.mr-1, .mx-1 {
+	margin-right: 0.25rem !important;
+}
+
+.mr-2, .mx-2 {
+	margin-right: 0.5rem !important;
+}
+
+.mr-3, .mx-3 {
+	margin-right: 1rem !important;
+}
+
+.mr-4, .mx-4 {
+	margin-right: 1.5rem !important;
+}
+
+.mr-5, .mx-5 {
+	margin-right: 3rem !important;
+}
+
+.ml-1, .mx-1 {
+	margin-left: 0.25rem !important;
+}
+
+.ml-2, .mx-2 {
+	margin-left: 0.5rem !important;
+}
+
+.ml-3, .mx-3 {
+	margin-left: 1rem !important;
+}
+
+.ml-4, .mx-4 {
+	margin-left: 1.5rem !important;
+}
+
+.ml-5, .mx-5 {
+	margin-left: 3rem !important;
+}
+
+.badge {
+	display: inline-block;
+	padding: .25em .4em;
+	font-size: 100%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25rem;
+}
+
+.badge-secondary {
+	color: #fff;
+	background-color: #ff7639;
+}
